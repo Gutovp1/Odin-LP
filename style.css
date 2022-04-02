@@ -10,7 +10,7 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
 }
-
+/*First section header*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -78,4 +78,9 @@ button {
     background-color: gray;
     justify-content: center;
     align-items: center;
+}
+
+/*Cards section*/
+.cards {
+    display: flex;
 }
