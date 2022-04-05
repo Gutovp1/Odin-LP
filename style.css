@@ -42,6 +42,12 @@ a {
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 100px 250px 100px 250px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
 }
 
 .header.container {
@@ -65,7 +71,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 20px 5px 20px;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
     border: 0px;
@@ -73,9 +79,10 @@ button {
 
 .image {
     display: flex;
-    width: 400px;
-    height: 240px;
+    width: 500px;
+    height: 250px;
     border: none;
+    border-radius:  0%;
 }
 
 /*Cards section*/
@@ -95,8 +102,48 @@ button {
 
 img {
     font-size: 15px;
+    width: 130px;
+    height: 130px;
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 10%;
-    
+    border-radius: 10%;    
+}
+
+.subtitle {
+    width: 130px;
+}
+
+/*Quote section*/
+.author {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    margin-right: 50px;
+}
+
+/*CTA Section*/
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 150px 70px 150px;
+    padding: 30px 110px 30px 110px;
+    background-color: #3882f6;
+    text-align: left;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.cta-title {
+    font-size: 20px;
+}
+
+.cta-text {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.cta-signup {
+    border: solid;
+    border-color: #f9faf8;
 }
