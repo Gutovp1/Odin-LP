@@ -88,7 +88,7 @@ button {
 /*Cards section*/
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px 150px 50px 150px;
     gap: 20px;
 }
@@ -102,15 +102,15 @@ button {
 
 img {
     font-size: 15px;
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     border-style: solid;
     border-color: #3882f6;
     border-radius: 10%;    
 }
 
 .subtitle {
-    width: 130px;
+    max-width: 200px;
 }
 
 /*Quote section*/
@@ -126,7 +126,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 70px 150px 70px 150px;
-    padding: 30px 110px 30px 110px;
+    padding: 50px 110px 50px 110px;
     background-color: #3882f6;
     text-align: left;
     color: #f9faf8;
